@@ -1,3 +1,45 @@
+/*
+<Variable name="keycolor" description="Main Color" type="color" default="#EA4C89" hideEditor="true"  value="#d75c30"/>
+<Group description="Body">
+<Variable name="color" description="test Color" type="color" default="transparent" hideEditor="true"  value="rgba(0,0,0,0)"/>
+<Variable name="body.background" description="Background" type="background" color="$(body.background.color)" default="#999 none repeat scroll top left"  value="#999 none repeat scroll top left"/>
+<Variable name="body.background.color" description="Background color" type="color" default="#fff"  value="#ffffff"/>
+</Group>
+<Group description="Widths">
+<Variable name="content.width" description="Content width" type="length" min="600px" max="2400px" default="1460px"  value="1461px"/>
+</Group>
+<Group description="Navigation" selector=".var-nav">
+<Variable name="nav.background.color" description="Background color" type="color" default="#131313"  value="#000000"/>
+</Group>
+<Group description="Logo" selector=".logo">
+<Variable name="title.size" description="Logo Size (Big)" type="font" default="normal 700 40px 'Noto Sans HK', sans-serif"  value="normal 700 40px &#39;Noto Sans HK&#39;, sans-serif"/>
+<Variable name="title.size.small" description="Logo Size (Small)" type="font" default="normal 700 30px 'Noto Sans HK', sans-serif"  value="normal 700 30px &#39;Noto Sans HK&#39;, sans-serif"/>
+<Variable name="logo.color" description="Logo color" type="color" default="#959595"  value="#929292"/>
+<Variable name="logo.margin" description="Logo margin right" type="length" min="0px" max="50px" default="15px"  value="22px"/>
+<Variable name="logo.width" description="Logo width" type="length"
+            min="10px" max="100px" default="50px"  value="50px"/>
+<Variable name="logo.height" description="Logo Height" type="length"
+            min="10px" max="100px" default="40px"  value="40px"/>
+</Group>
+<Group description="Thumbnail Size" selector=".hentry">
+<Variable name="thumb.width" description="Thumbnail Width" type="length" min="100px" max="500px" default="220px"  value="220px"/>
+<Variable name="thumb.height" description="Thumbnail Height" type="length" min="100px" max="500px" default="140px"  value="140px"/>
+<Variable name="gap" description="Thumbnail Gap" type="length" min="0px" max="50px" default="16px"  value="16px"/>
+</Group>
+<Group description="New Comment Required - Dont edit">
+<Variable name="body.text.font" description="Font komentar Blogger" type="font" default="$(fontBody)" value="400 14px &#39;Roboto&#39;, sans-serif"/>
+<Variable name="body.text.color" description="Color" type="color" default="#505050"  value="#444444"/>
+<Variable name="body.link.color" description="Link color" type="color" default="#161617"  value="#000000"/>
+<Variable name="posts.title.color" description="Post title color" type="color" default="#161617"  value="#000000"/>
+<Variable name="posts.text.color" description="Post text color" type="color" default="#505050"  value="#444444"/>
+<Variable name="posts.icons.color" description="Post info color" type="color" default="#505050" value="#444444"/>
+<Variable name="posts.background.color" description="Post background color" type="color" default="#f7f7fc"  value="#f9f5fb"/>
+<Variable name="tabs.font" description="Font" type="font" default="400 14px &#39;Roboto&#39;, sans-serif" value="400 14px &#39;Roboto&#39;, sans-serif"/>
+<Variable name="tabs.overflow.background.color" description="Popup background color" type="color" default="#ffffff"  value="#ffffff"/>
+<Variable name="labels.background.color" description="Labels background color" type="color" default="#fff" value="#ffffff"/>
+</Group>
+*/
+
 /*!************************************************
 * Name		: AnimeLA
 * Version	: Beta
